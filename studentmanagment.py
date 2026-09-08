@@ -42,7 +42,6 @@ class Student:
         print("Grade:", grade)
 
 
-# User input
 name = input("Enter name: ")
 roll_no = int(input("Enter roll number: "))
 
@@ -51,8 +50,8 @@ for i in range(3):
     mark = float(input("Enter mark: "))
     marks.append(mark)
 
-# Object creation
+
 student = Student(name, roll_no, marks)
 
-# Calculate percentage and grade
+
 student.calculate()

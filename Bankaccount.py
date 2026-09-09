@@ -27,6 +27,9 @@ class BankAccount:
 # account.withdrawal(2500)
 # account.display()
 
+
+
+#user input
 Name=(input("Enter the Name :"))
 Balance=float(input("Enter your initial balance:"))
 
